@@ -6,6 +6,7 @@ struct Pixel
 {
 public:
     Pixel(float red, float green, float blue);
+    Pixel(float lightness);
     float const r, g, b;
 
     Pixel operator+(const Pixel &v);

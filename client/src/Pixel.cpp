@@ -2,6 +2,7 @@
 #include "Pixel.hpp"
 
 Pixel::Pixel(float red, float green, float blue) : r(red), g(green), b(blue) {}
+Pixel::Pixel(float lightness) : r(lightness), g(lightness), b(lightness) {}
 
 Pixel Pixel::operator+(const Pixel &v)
 {
