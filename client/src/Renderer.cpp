@@ -21,4 +21,4 @@ Renderer &Renderer::operator=(Renderer &&other)
 
 Renderer::~Renderer() {}
 
-Image &&Renderer::Draw() {}
+// Image Renderer::Draw(std::uint64_t frameNumber) {}

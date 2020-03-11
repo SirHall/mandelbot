@@ -20,7 +20,7 @@ public:
 
     inline RenderSettings const &GetSettings() { return s; }
 
-    Image &&Draw();
+    Image Draw(std::uint64_t frameNumber);
 };
 
 #endif
