@@ -15,7 +15,7 @@ public:
     RendererMandelbrot &operator=(RendererMandelbrot &&other);
     ~RendererMandelbrot();
 
-    Image &&Draw();
+    Image Draw(std::uint64_t frameNumber);
 };
 
 #endif
