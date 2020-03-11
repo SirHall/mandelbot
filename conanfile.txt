@@ -1,0 +1,9 @@
+[requires]
+volt_net/0.0.1@volt/dev
+
+mpfr/4.0.2
+gmp/6.1.2
+boost/1.72.0
+
+[generators]
+cmake
