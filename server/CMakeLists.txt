@@ -15,6 +15,7 @@ add_executable(server ${SERVER_SRCS})
 target_include_directories(server PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include/)
 target_link_libraries(server ${CMAKE_THREAD_LIBS_INIT})
 target_link_libraries(server ${CONAN_LIBS})
+target_link_libraries(server shared)
 set_property(TARGET server PROPERTY CXX_STANDARD 20)
 
 # Flags

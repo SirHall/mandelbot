@@ -15,6 +15,7 @@ add_executable(client ${CLIENT_SRCS})
 target_include_directories(client PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include/)
 target_link_libraries(client ${CMAKE_THREAD_LIBS_INIT})
 target_link_libraries(client ${CONAN_LIBS})
+target_link_libraries(client shared)
 set_property(TARGET client PROPERTY CXX_STANDARD 20)
 
 # Flags
